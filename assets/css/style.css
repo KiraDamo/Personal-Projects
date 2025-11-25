@@ -1,6 +1,6 @@
 /* Base body style */
 body {
-  background-color: #edd9ca;       /* very light tan background */
+  background-color: #ffffff;       /* very light tan background */
   color: #5d4f4c;                  /* warm dark brown text */
   font-family: 'Quicksand', sans-serif;
   line-height: 1.6;
@@ -25,7 +25,7 @@ h3 { font-size: 1.4em; color: #5d4f4c; font-weight: 500; }
 
 /* Paragraphs */
 p {
-  background-color: #bcaeab;        /* slightly lighter tan behind text */
+  background-color: #ffffff;        /* slightly lighter tan behind text */
   padding: 0.5em 1em;
   border-radius: 0.35em;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
