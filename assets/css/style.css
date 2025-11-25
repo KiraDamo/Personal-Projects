@@ -18,15 +18,6 @@ body {
   max-width: 700px;
 }
 
-.site-header {
-  background-color: #ffffff;  /* white box */
-  border-radius: 1em;         /* rounded corners */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* soft shadow */
-  padding: 1.5em 2em;         /* space inside the box */
-  max-width: 700px;           /* optional width */
-  margin: 1em auto;           /* center horizontally */
-}
-
 /* Headers */
 h1, h2, h3 {
   font-weight: 700;
@@ -36,6 +27,7 @@ h1, h2, h3 {
 }
 
 /* Larger font sizes for hierarchy */
+
 h1 {
   font-size: 2.5em;
 }
@@ -59,16 +51,11 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Buttons or tags style (like your icons at the bottom) */
-.button-like {
-  display: inline-block;
-  background: #fff;
-  border-radius: 2em;
-  padding: 0.5em 1.2em;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  margin: 0.5em 1em 0 0;
-  font-weight: 600;
-  color: #4a3c32;
-  cursor: pointer;
-  user-select: none;
+.site-header {
+  background-color: #ffffff;  /* white box */
+  border-radius: 1em;         /* rounded corners */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* soft shadow */
+  padding: 1.5em 2em;         /* space inside the box */
+  max-width: 700px;           /* optional width */
+  margin: 1em auto;           /* center horizontally */
 }
