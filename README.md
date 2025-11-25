@@ -1,5 +1,5 @@
 
-#Kira's Data Science Projects
+Kira's Data Science Projects
 
 Welcome to my personal data science portfolio!
 
