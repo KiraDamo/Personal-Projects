@@ -1,71 +1,65 @@
-/* Base body style */
+/* Background */
 body {
-  background-color: #edd9ca;       /* very light tan background */
-  color: #5d4f4c;                  /* warm dark brown text */
-  font-family: 'Quicksand', sans-serif;
-  line-height: 1.6;
+  background-color: #d8c4b6; /* similar warm beige */
+  font-family: 'Poppins', 'Comic Sans MS', cursive, sans-serif; /* playful rounded font */
+  color: #4a3c32; /* warm dark brown text */
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  line-height: 1.5;
 }
 
-/* Headers (H1-H3) with cozy rounded boxes */
+/* Main containers */
+.rounded-box, .site-header {
+  background-color: #ffffff; /* clean white */
+  border-radius: 1em; /* large rounded corners */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* soft shadow */
+  padding: 1.5em 2em;
+  margin: 1em auto;
+  max-width: 700px;
+}
+
+/* Headers */
 h1, h2, h3 {
-  display: inline-block;
-  background-color: #fffff;       /* soft tan box */
-  border-radius: 0.5em;
-  padding: 0.25em 1em;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  font-weight: 700;
+  margin-top: 0;
   margin-bottom: 0.5em;
+  color: #4a3c32;
 }
 
-/* Individual sizes and colors */
-h1 { font-size: 2.2em; color: #5d4f4c; font-weight: 700; }
-h2 { font-size: 1.8em; color: #5d4f4c; font-weight: 600; }
-h3 { font-size: 1.4em; color: #5d4f4c; font-weight: 500; }
+/* Larger font sizes for hierarchy */
+h1 {
+  font-size: 2.5em;
+}
 
-/* Paragraphs */
-p {
-  background-color: #ffffff;        /* slightly lighter tan behind text */
-  padding: 0.5em 1em;
-  border-radius: 0.35em;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  margin-bottom: 1em;
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 /* Links */
 a {
-  color: #7d6658;                   /* warm brown */
+  color: #6d4c41; /* soft brown */
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* Project boxes */
-.rounded-box {
-  background-color: #fff3e7;       /* cozy tan */
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 1em 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-}
-
-/* Optional site header */
-.site-header {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #f5e6d3;
-  border-bottom: 2px solid #e2d4c0;
-}
-
-.site-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
-}
-
-.site-header p {
-  font-size: 1.2em;
-  color: #6c534a;
+/* Buttons or tags style (like your icons at the bottom) */
+.button-like {
+  display: inline-block;
+  background: #fff;
+  border-radius: 2em;
+  padding: 0.5em 1.2em;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 0.5em 1em 0 0;
+  font-weight: 600;
+  color: #4a3c32;
+  cursor: pointer;
+  user-select: none;
 }
