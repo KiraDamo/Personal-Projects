@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-size: 1.8em;
   font-weight: 600;
-  color: #6c4f6d;               /* darker pink/purple for variety */
+  color: #5d4f4c;               /* darker pink/purple for variety */
   display: inline-block;
   background: #ffffff;
   padding: 0.2em 0.8em;
@@ -28,7 +28,7 @@ h2 {
 h3 {
   font-size: 1.4em;
   font-weight: 500;
-  color: #8b5e7e;               /* lighter pink/purple */
+  color: #5d4f4c;               /* lighter pink/purple */
   display: inline-block;
   background: #ffffff;
   padding: 0.15em 0.6em;
