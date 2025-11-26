@@ -2,6 +2,7 @@
 layout: default
 title: "Kira's Portfolio"
 ---
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Header -->
 <h1 class="header-box">Kira's Portfolio</h1>
