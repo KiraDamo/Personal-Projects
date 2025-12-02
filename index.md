@@ -1,7 +1,4 @@
----
-layout: default
-title: "Kira's Portfolio"
----
+
 <!-- Header -->
 <h1 class="header-box">Kira's Portfolio</h1>
 
